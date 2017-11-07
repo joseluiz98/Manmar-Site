@@ -1,0 +1,61 @@
+﻿/* PromoBlock Start */
+.PromoBlock .Contents
+{
+    padding: 132px 0 28px 0;
+}
+.PromoBlock .InnerSection .Core h1
+{
+	font-size:36px;
+}
+.PromoBlock .InnerSection .Core h2
+{
+	font-size:16px;
+	margin-bottom:0;
+}
+.PromoBlock .Contents .Tagline
+{
+    padding: 8px 0px;
+}
+.PromoBlock .InnerSection .Core .ShortHR
+{
+	margin-bottom: 15px;
+}
+.PromoBlock .InnerSection .Heading
+{
+    width: 160px;
+}
+.PromoBlock .InnerSection .Core
+{
+    padding: 0;
+    padding-bottom: 15px;
+}
+.PromoBlock .Contents .CallToActionButtons .TrackYourMoney
+{
+    	margin: 0px auto 5px auto;
+    	font-size: 14px;
+	width:100%;
+}
+.PromoBlock .Contents .CallToActionButtons .HowItWorks
+{
+	margin: 5px auto 0px auto;
+    	font-size: 14px;
+	width:100%;
+}
+@media (max-width: 372px)
+{
+	.PromoBlock .InnerSection .Core h1
+	{
+		font-size:32px;
+	}
+	.PromoBlock .InnerSection .Core h2
+	{
+		font-size:14px;
+	    font-weight: bold;
+	}
+	.PromoBlock .OuterSection h5
+	{
+		font-size:14px;
+	}
+}
+/* #MediaQueries End */
+/* #PromoBlock End */

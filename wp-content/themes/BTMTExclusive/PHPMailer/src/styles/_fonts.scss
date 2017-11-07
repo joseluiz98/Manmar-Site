@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratextra_bold';
+    src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('../fonts/montserrat-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratultra_light';
+    src: url('../fonts/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'phenomenablack';
+    src: url('../fonts/phenomena-black-webfont.woff2') format('woff2'),
+         url('../fonts/phenomena-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenabold';
+    src: url('../fonts/fonts/phenomena-bold-webfont.woff2') format('woff2'),
+         url('../fonts/fonts/phenomena-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenaextrabold';
+    src: url('../fonts/phenomena-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/phenomena-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenaextralight';
+    src: url('../fontsphenomena-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/phenomena-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenalight';
+    src: url('../fonts/fonts/phenomena-light-webfont.woff2') format('woff2'),
+         url('../fonts/fonts/phenomena-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenaregular';
+    src: url('../fonts/phenomena-regular-webfont.woff2') format('woff2'),
+         url('../fonts/phenomena-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'phenomenathin';
+    src: url('../fonts/phenomena-thin-webfont.woff2') format('woff2'),
+         url('../fonts/phenomena-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9l9nxn');
+  src:  url('../fonts/icomoon.eot?9l9nxn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9l9nxn') format('truetype'),
+    url('../fonts/icomoon.woff?9l9nxn') format('woff'),
+    url('../fonts/icomoon.svg?9l9nxn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="rp-"], [class*=" rp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rp-notebook:before {
+  content: "\e907";
+}
+.rp-phone:before {
+  content: "\e908";
+}
+.rp-contrast:before {
+  content: "\e904";
+}
+.rp-minus:before {
+  content: "\e905";
+}
+.rp-plus:before {
+  content: "\e906";
+}
+.rp-facebook:before {
+  content: "\e900";
+}
+.rp-instagram:before {
+  content: "\e901";
+}
+.rp-twitter:before {
+  content: "\e902";
+}
+.rp-youtube:before {
+  content: "\e903";
+}

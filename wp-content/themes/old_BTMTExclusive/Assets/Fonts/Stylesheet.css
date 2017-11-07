@@ -1,0 +1,47 @@
+﻿/*-------- Powered By Azoora Incorporated -------*/
+
+
+/* Gotham Book */
+@font-face
+{
+	font-family: 'Gotham';
+	src: url('Gotham.ttf');
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	transform: rotate(-0.0000000001deg);
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+/* SweetSans */
+@font-face
+{
+	font-family: 'SweetSans';
+	src: url('SweetSans.ttf');
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	transform: rotate(-0.0000000001deg);
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+/* BebasNeue */
+@font-face
+{
+	font-family: 'BebasNeue';
+	src: url('BebasNeue.ttf');
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	transform: rotate(-0.0000000001deg);
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+
+/*-------- Powered By Azoora Incorporated -------*/

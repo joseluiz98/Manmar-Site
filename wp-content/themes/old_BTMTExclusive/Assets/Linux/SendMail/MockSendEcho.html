@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form id="MockForm" name="MockForm" action="SendEmail.php" method="post">
+        <input type="text" id="NameTextBox" name="NameTextBox" />
+        <input type="button" value="Submit" id="Submit" />
+    </form>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <script>
+        $(function() {
+            $('#MockForm #Submit').on('click', function (e) {
+                $(function(){
+                    var Name = $("#MockForm #NameTextBox").val();
+                    $.ajax({
+                        type: "POST",
+                        url: 'SendEmail.php',
+                        /*
+                        data: ({
+                            Name: "Hash Moody"
+                            //Email: "hashmoody@outlook.com"
+                        }),
+                        */
+                        data: { 'Name': Name, 'Email': 'hash@azoora.com' },
+                        success: function(data) {
+                            alert(data);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

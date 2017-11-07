@@ -1,0 +1,47 @@
+
+// _variables.scss
+$color-white: #FFFFFF;
+$color-green: #02a987;
+$color-green-ligth: #587d7b;
+$color-gray-ligth: #949494;
+$color-violet: #7a4f89;
+$color-gray:   #505050;
+
+
+
+$link-menu:   #505050;
+$bg-ftop:  #02a987;
+$bg-fbottom:  #FFFFFF;
+$bg-social:   #9470ae;
+
+//fonts
+$fontBase: 'thesanslight', sans-serif;
+$fontBold: 'thesansbold', sans-serif;
+$fontRegular: 'thesansregular', sans-serif;
+
+//color pallet
+$palettes: (
+    gray: (
+      base: #000000
+    )
+);
+
+
+@function palette($palette, $tone: 'base', $opacity:1) {
+    @return rgba(map-get(map-get($palettes, $palette), $tone), $opacity);
+}
+
+
+/**
+ * Yields
+(
+  lightest: #000000, 
+  lighter: #000000, 
+  light: #000000, 
+  base: 000000, 
+  dark: #000000, 
+  darker: #000000, 
+  darkest: #000000
+)
+ */
+

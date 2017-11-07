@@ -1,0 +1,1 @@
+var action="click",speed="500";$(document).ready(function(){$("li.q").on(action,function(){$(this).next().slideToggle(speed).siblings("li.a").slideUp();var e=$(this);$("li").not(e).removeClass("faqItemActive"),e.toggleClass("faqItemActive")})});

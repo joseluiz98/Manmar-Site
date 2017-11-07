@@ -1,0 +1,1 @@
+[30-Jun-2017 14:01:39 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/belmoney/public_html/domains/btmt.eu/wp-content/plugins/hello.php on line 60
