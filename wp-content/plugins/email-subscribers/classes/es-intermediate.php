@@ -60,6 +60,9 @@ class es_cls_intermediate {
 			case 'edit':
 				require_once(ES_DIR.'notification'.DIRECTORY_SEPARATOR.'notification-edit.php');
 				break;
+			case 'preview':
+				require_once(ES_DIR.'compose'.DIRECTORY_SEPARATOR.'compose-preview.php');
+				break;
 			default:
 				require_once(ES_DIR.'notification'.DIRECTORY_SEPARATOR.'notification-show.php');
 				break;
@@ -67,6 +70,11 @@ class es_cls_intermediate {
 	}
 
 	public static function es_sendemail() {
+		$current_page = isset($_GET['ac']) ? $_GET['ac'] : '';
+		if($current_page && $current_page == 'preview'){
+			require_once(ES_DIR.'compose'.DIRECTORY_SEPARATOR.'compose-preview.php');
+				return;
+		}
 		require_once(ES_DIR.'sendmail'.DIRECTORY_SEPARATOR.'sendmail.php');
 	}
 
@@ -97,7 +105,7 @@ class es_cls_intermediate {
 				require_once(ES_DIR.'sentmail'.DIRECTORY_SEPARATOR.'sentmail-show.php');
 				break;
 		}
-	}
+	}	
 
 	public static function es_information() {
 		require_once(ES_DIR.'help'.DIRECTORY_SEPARATOR.'help.php');

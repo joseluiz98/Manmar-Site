@@ -96,6 +96,7 @@ if ($es_error_found == TRUE && isset($es_errors[0]) == TRUE) {
 	<p class="description">
 		<?php echo __( 'Use this to send newsletter emails to your subscribers.', ES_TDOMAIN ); ?>
 	</p>
+	<div class="es-form" style="width: 80%;float: left;">
 	<form name="es_form" method="post" action="#" onsubmit="return _es_submit()">
 		<table class="form-table">
 			<tbody>
@@ -106,7 +107,7 @@ if ($es_error_found == TRUE && isset($es_errors[0]) == TRUE) {
 						</label>
 					</th>
 					<td>
-						<select name="es_templ_heading" id="es_templ_heading">
+							<select name="es_templ_heading" id="es_templ_heading" onchange="return _es_change(this.options[this.selectedIndex])">
 							<option value=''><?php echo __( 'Select', ES_TDOMAIN ); ?></option>
 							<?php
 								$subject = array();
@@ -118,13 +119,13 @@ if ($es_error_found == TRUE && isset($es_errors[0]) == TRUE) {
 										if($sub["es_templ_id"] == $es_templ_heading) { 
 											$thisselected = "selected='selected'" ; 
 										}
-										?><option value='<?php echo $sub["es_templ_id"]; ?>' <?php echo $thisselected; ?>><?php echo esc_html(stripslashes($sub["es_templ_heading"])); ?></option><?php
+											?><option data-img='<?php  echo $sub["es_templ_thumbnail"]; ?>' value='<?php echo $sub["es_templ_id"]; ?>' <?php echo $thisselected; ?>><?php echo esc_html(stripslashes($sub["es_templ_heading"])); ?></option><?php
 										$thisselected = "";
 									}
 								}
 							?>
 						</select>
-					</td>
+					</td>	
 				</tr>
 				<tr>
 					<th scope="row">
@@ -198,4 +199,8 @@ if ($es_error_found == TRUE && isset($es_errors[0]) == TRUE) {
 		<?php wp_nonce_field('es_form_submit'); ?>
 		<input type="button" class="button-primary" onclick="_es_redirect()" value="<?php echo __( 'Reset', ES_TDOMAIN ); ?>" />
 	</form>
+	</div>
+	<div clas="es-preview" style="float: right;width: 19%;">
+		<div class="es-templ-img"></div>
+	</div>
 </div>

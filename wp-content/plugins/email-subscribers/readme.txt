@@ -1,13 +1,13 @@
 === Email Subscribers & Newsletters ===
-Contributors: icegram, storeapps, niravmehta, Mansi Shah, akash123dhawade, ravioza, sandhyam, Tarun.Parswani
+Contributors: icegram, niravmehta, Mansi Shah, akash123dhawade, sandhyam, storeapps, Tarun.Parswani, ravioza
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPTHCDC382KVA
 Author URI: https://www.icegram.com/
 Tags: email marketing, email newsletter form, email signup, email widget, newsletter, newsletter signup, subscribe, subscription form, bulk emails, signup form, list builder, lead generation
 Requires at least: 3.4
-Tested up to: 4.8.1
-Stable tag: 3.3.7
+Tested up to: 4.8.2
+Stable tag: 3.4.2
 License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.htmlss
+License URI: http://www.gnu.org/licenses
 
 Add subscription forms on website, send HTML newsletters & automatically notify subscribers about new blog posts once it gets published.
 
@@ -144,12 +144,13 @@ Translations inside plugin :
 * Catalan (ca) - Jordi Jorda
 * Czech (cs_CZ) - Martin & Tomas
 * German (de_DE) - [Markus Buschmann](https://profiles.wordpress.org/spiderbuschi/)
-* Spanish (es_ES) - David Bravo (bohemme)
+* Spanish (es_ES) - David Bravo (bohemme), Fernando Pérez
 * French (fr_FR) - [Serge](https://profiles.wordpress.org/kalyx)
 * Hungarian (hu_HU) - Zsolt Edelényi
 * Lithuanian (lt_LT) - Andrius
 * Norwegian (nb_NO) - Helge Rosseboe
 * Polish (pl_PL) - Witold
+* Portuguese-Brazil (pt_BR) - Marcelo de Meneses Guedes
 * Swedish (sv_SE) - Rune Svennelid
 * Turkish (tr_TR) - [Erkan ORUÇ](http://designerkan.com/)
 
@@ -310,6 +311,35 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 11. Admin page - Delivery Report of emails i.e. email sent, opened, viewed status, viewed date
 
 == Changelog ==
+
+= 3.4.2 (31.10.2017) =
+
+* Fix: User roles not working
+* Fix: Viewed Status in Reports not updating after an email is opened
+* Fix: Preview Template button not redirecting to correct page while previewing
+* Update: Keyword structure display for Name & Email in preview
+* Update: Thumbnail image on Templates
+* Update: POT file
+* Localization: Made all translation files up-to-date with latest POT file
+* Localization: Translation for Portuguese-Brazil (pt_BR) language added (Thanks to Marcelo de Meneses Guedes)
+
+= 3.4.1 (18.10.2017) =
+
+* Fix: Fatal error: Can’t use function return value in write context
+
+= 3.4.0 (17.10.2017) =
+
+* New: Old keyword structure ###KEYWORD### converted to {{KEYWORD}}
+* New: 2 new keywords - {{NAME}} & {{EMAIL}} - for Newsletter
+* New: Improved the UI for Compose and renamed it to Templates
+* New: Replace the keyword with actual content from last blog post while previewing Post Notification
+* New: You can set featured thumbnail for the Templates
+* Update: Footer text
+* Update: POT file
+* Localization: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Localization: Translation for Catalan (ca) language updated (Thanks to Jordi Jorda)
+* Localization: Translation for Polish (pl_PL) language updated (Thanks to Witold)
+* Localization: Translation for Spanish (es_ES) language updated (Thanks to Fernando Pérez)
 
 = 3.3.7 (08.09.2017) =
 
@@ -640,6 +670,35 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/email-subscribers/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.4.2 (31.10.2017) =
+
+* Fix: User roles not working
+* Fix: Viewed Status in Reports not updating after an email is opened
+* Fix: Preview Template button not redirecting to correct page while previewing
+* Update: Keyword structure display for Name & Email in preview
+* Update: Thumbnail image on Templates
+* Update: POT file
+* Localization: Made all translation files up-to-date with latest POT file
+* Localization: Translation for Portuguese-Brazil (pt_BR) language added (Thanks to Marcelo de Meneses Guedes)
+
+= 3.4.1 (18.10.2017) =
+
+* Fix: Fatal error: Can’t use function return
+
+= 3.4.0 (17.10.2017) =
+
+* New: Old keyword structure ###KEYWORD### converted to {{KEYWORD}}
+* New: 2 new keywords - {{NAME}} & {{EMAIL}} - for Newsletter
+* New: Improved the UI for Compose and renamed it to Templates
+* New: Replace the keyword with actual content from last blog post while previewing Post Notification
+* New: You can set featured thumbnail for the Templates
+* Update: Footer text
+* Update: POT file
+* Localization: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Localization: Translation for Catalan (ca) language updated (Thanks to Jordi Jorda)
+* Localization: Translation for Polish (pl_PL) language updated (Thanks to Witold)
+* Localization: Translation for Spanish (es_ES) language updated (Thanks to Fernando Pérez)
 
 = 3.3.7 (08.09.2017) =
 

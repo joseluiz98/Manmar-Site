@@ -4,6 +4,35 @@ Author		: Icegram
 Author URI	: https://www.icegram.com/
 License		: GPLv3
 
+************************************************************Version 3.4.2************************************************************
+
+* Fix: User roles not working
+* Fix: Viewed Status in Reports not updating after an email is opened
+* Fix: Preview Template button not redirecting to correct page while previewing
+* Update: Keyword structure display for Name & Email in preview
+* Update: Thumbnail image on Templates
+* Update: POT file
+* Localization: Made all translation files up-to-date with latest POT file
+* Localization: Translation for Portuguese-Brazil (pt_BR) language added (Thanks to Marcelo de Meneses Guedes)
+
+************************************************************Version 3.4.1************************************************************
+
+* Fix: Fatal error: Can’t use function return value in write context
+
+************************************************************Version 3.4.0************************************************************
+
+* New: Old keyword structure ###KEYWORD### converted to {{KEYWORD}}
+* New: 2 new keywords - {{NAME}} & {{EMAIL}} - for Newsletter
+* New: Improved the UI for Compose and renamed it to Templates
+* New: Replace the keyword with actual content from last blog post while previewing Post Notification
+* New: You can set featured thumbnail for the Templates
+* Update: Footer text
+* Update: POT file
+* Localization: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Localization: Translation for Catalan (ca) language updated (Thanks to Jordi Jorda)
+* Localization: Translation for Polish (pl_PL) language updated (Thanks to Witold)
+* Localization: Translation for Spanish (es_ES) language updated (Thanks to Fernando Pérez)
+
 ************************************************************Version 3.3.7************************************************************
 
 * Fix: Keywords ###NAME### and ###EMAIL### not showing correct details while sending post notifications emails (in HTML type only)

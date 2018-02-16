@@ -118,10 +118,10 @@ class es_cls_common {
 	public static function es_sent_report_plain() {
 		$report = "";
 		$report .= "Hi Admin,\n\n";
-		$report .= "Email has been sent successfully to ###COUNT### email(s). Please find the details below:\n\n";
-		$report .= "Unique ID: ###UNIQUE###\n";
-		$report .= "Start Time: ###STARTTIME###\n";
-		$report .= "End Time: ###ENDTIME###\n";
+		$report .= "Email has been sent successfully to {{COUNT}} email(s). Please find the details below:\n\n";
+		$report .= "Unique ID: {{UNIQUE}}\n";
+		$report .= "Start Time: {{STARTTIME}}\n";
+		$report .= "End Time: {{ENDTIME}}\n";
 		$report .= "For more information, login to your dashboard and go to Reports menu in Email Subscribers.\n\n";
 		$report .= "Thank You.";
 		return $report;
@@ -130,10 +130,10 @@ class es_cls_common {
 	public static function es_sent_report_html() {
 		$report = "";
 		$report .= "Hi Admin,<br/><br/>";
-		$report .= "Email has been sent successfully to ###COUNT### email(s). Please find the details below:<br/><br/>";
-		$report .= "Unique ID: ###UNIQUE###<br/>";
-		$report .= "Start Time: ###STARTTIME###<br/>";
-		$report .= "End Time: ###ENDTIME###<br/>";
+		$report .= "Email has been sent successfully to {{COUNT}} email(s). Please find the details below:<br/><br/>";
+		$report .= "Unique ID: {{UNIQUE}}<br/>";
+		$report .= "Start Time: {{STARTTIME}}<br/>";
+		$report .= "End Time: {{ENDTIME}}<br/>";
 		$report .= "For more information, login to your dashboard and go to Reports menu in Email Subscribers.<br/><br/>";
 		$report .= "Thank You.";
 		return $report;
@@ -143,6 +143,7 @@ class es_cls_common {
 		$string = "/[\'^$%&*()}{@#~?><>,|=_+\"]/";
 		return $string;
 	}
+	
 }
 
 class es_cls_security {

@@ -35,20 +35,11 @@ if ($result != '1') {
 		<?php
 			$preview = array();
 			$preview = es_cls_sentmail::es_sentmail_select($did, 0, 0);
-			$preview = str_replace("###NAME###", "Username", $preview);
-			$preview = str_replace("###EMAIL###", "Useremail", $preview);
 
 			$es_email_type = get_option( 'ig_es_emailtype' );	// Not the ideal way. Email type can differ while previewing sent email.
 
 			if ( $es_email_type == "WP HTML MAIL" || $es_email_type == "PHP HTML MAIL" ) {
-				$temp_content = $preview['es_sent_preview'];
-				$temp_content =  convert_chars(convert_smilies( wptexturize( $temp_content )));
-				if(isset($GLOBALS['wp_embed'])) {
-					$temp_content = $GLOBALS['wp_embed']->autoembed($temp_content);
-				}
-				$temp_content = wpautop( $temp_content );
-				// $temp_content = do_shortcode( shortcode_unautop( $temp_content ) );
-				$preview['es_sent_preview'] = $temp_content;
+				$preview['es_sent_preview'] = es_cls_registerhook::es_process_template_body($preview['es_sent_preview'],$did);
 			} else {
 				$preview['es_sent_preview'] = str_replace("<br />", "\r\n", $preview['es_sent_preview']);
 				$preview['es_sent_preview'] = str_replace("<br>", "\r\n", $preview['es_sent_preview']);

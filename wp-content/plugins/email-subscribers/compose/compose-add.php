@@ -100,6 +100,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</select>
 				<p><?php echo __( 'Please select your mail status', ES_TDOMAIN ); ?></p>
 			</div>
+			<!-- <?php do_action('es_after_editor');?> -->
 			<input type="hidden" name="es_form_submit" value="yes"/>
 			<p class="submit">
 				<input type="submit" class="button-primary" value="<?php echo __( 'Save', ES_TDOMAIN ); ?>" />

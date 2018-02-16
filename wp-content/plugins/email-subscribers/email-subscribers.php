@@ -3,11 +3,11 @@
  * Plugin Name: Email Subscribers & Newsletters
  * Plugin URI: https://www.icegram.com/
  * Description: Add subscription forms on website, send HTML newsletters & automatically notify subscribers about new blog posts once it is published.
- * Version: 3.3.7
+ * Version: 3.4.2
  * Author: Icegram
  * Author URI: https://www.icegram.com/
  * Requires at least: 3.4
- * Tested up to: 4.8.1
+ * Tested up to: 4.8.2
  * Text Domain: email-subscribers
  * Domain Path: /languages/
  * License: GPLv3
@@ -22,17 +22,18 @@ if ( preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF']) ) {
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'base'.DIRECTORY_SEPARATOR.'es-defined.php');
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'classes'.DIRECTORY_SEPARATOR.'es-stater.php');
 
-add_action( 'admin_menu', array( 'es_cls_registerhook', 'es_adminmenu' ) );
+add_action( 'admin_menu', array( 'es_cls_registerhook', 'es_adminmenu' ), 9);
 add_action( 'admin_init', array( 'es_cls_registerhook', 'es_welcome' ) );
 add_action( 'admin_enqueue_scripts', array( 'es_cls_registerhook', 'es_load_scripts' ) );
 add_action( 'wp_enqueue_scripts', array( 'es_cls_registerhook', 'es_load_widget_scripts_styles' ) );
 add_action( 'widgets_init', array( 'es_cls_registerhook', 'es_widget_loading' ) );
 
 // Action to Upgrade Email Subscribers database
-add_action( 'init', array( 'es_cls_registerhook', 'sa_email_subscribers_db_update' ) );
+add_action( 'init', array( 'es_cls_registerhook', 'sa_email_subscribers_db_update' ), 11 );
 
 // Admin Notices
 add_action( 'admin_notices', array( 'es_cls_registerhook', 'es_add_admin_notices' ) );
+add_action( 'admin_init', array( 'es_cls_registerhook', 'dismiss_admin_notice' ) );
 
 add_shortcode( 'email-subscribers', 'es_shortcode' );
 
@@ -54,6 +55,27 @@ add_filter( 'update_footer', array( 'es_cls_registerhook' , 'es_update_footer_te
 
 // Sync upcoming WordPress users
 add_action( 'user_register', 'es_sync_registereduser' );
+
+// Register post type
+add_action( 'init', array( 'es_cls_registerhook' , 'es_register_post_type' ) );
+// Add column for es_template
+add_filter( 'manage_edit-es_template_columns', array( 'es_cls_registerhook' , 'es_custom_template_column' ), 10 ,1 );
+add_action( 'manage_es_template_posts_custom_column', array( 'es_cls_registerhook' , 'es_template_edit_columns' ), 2 );
+// Add preview action 
+add_filter( 'post_row_actions', array('es_cls_registerhook', 'es_add_template_action'), 10, 2 );
+// Add html for type
+add_action( 'edit_form_after_title', array( 'es_cls_registerhook', 'es_add_template_type_metaboxes' ), 0 );
+// Save type
+add_action( 'save_post', array( 'es_cls_registerhook', 'es_save_template_type' ), 10, 2 );
+// Add preview button
+add_action( 'edit_form_advanced', array( 'es_cls_registerhook', 'add_preview_button' ) );
+// Add keywords
+add_action('edit_form_after_editor' , array( 'es_cls_registerhook', 'es_add_keyword' ), 10, 2);
+// Highlight
+add_filter('parent_file',  array( 'es_cls_registerhook','es_highlight'));
+//add style
+add_action('admin_footer',  array( 'es_cls_registerhook','es_add_admin_css'));
+
 
 // To store current date and version in db with each update
 add_action( 'upgrader_process_complete', 'es_update_current_version_and_date', 10, 2 );

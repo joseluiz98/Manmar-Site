@@ -153,7 +153,6 @@
 				?>
 				<a href="https://api.whatsapp.com/send?phone=32489744460&text=<?php echo $message; ?> "
 					class="SocialIcon" target="_blank"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
-					<i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
 				</a>
 				<a href="http://facebook.com/btmt.be" class="SocialIcon" alt="Facebook" title="Facebook">
 					<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
@@ -254,7 +253,7 @@
 					<!-- <a href="<?php bloginfo('url'); ?>"> -->
 						<span id="English" style="color: #fff; padding-top: 2px;">
 							<!-- <img style="width:22px; margin-right: 10px" id="CurrentLanguage" src="http://www.btmt.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png" alt="Choose Language" /> -->
-							BR
+							PT
 						</span>
 					</a> &nbsp
 					<a href="http://www.btmt.eu/" style="color: #fff; padding-top: 2px;">

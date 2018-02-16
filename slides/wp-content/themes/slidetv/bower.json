@@ -1,0 +1,28 @@
+{
+  "name": "300comunicacao",
+  "version": "1.0.0",
+  "authors": [
+    "Giuliano Martins <giuliano@santiagomartins.com.br>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery-validation-unobtrusive": "^3.2.6",
+    "jquery": "1.11.1",
+    "modernizr": "^3.5.0",
+    "respond-minmax": "~1.4.2",
+    "jquery-validation": "^1.16.0",
+    "respond": "respond-minmax#^1.4.2",
+    "jquery-scrollto": "^1.4.6",
+    "jquery.localScroll": "^1.4.0",
+    "isotope": "^3.0.4",
+    "clip-path-polygon": "*"
+  }
+}

@@ -114,7 +114,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-admin active-settings">
 				<th scope="row">
 					<label for="elp"><?php echo __( 'Image Size', ES_TDOMAIN ); ?>
-					<p class="description"><?php echo __( 'Select image size for ###POSTIMAGE### to be shown in the Post Notification Emails.', ES_TDOMAIN ); ?></p></label>
+					<p class="description"><?php echo __( 'Select image size for {{POSTIMAGE}} to be shown in the Post Notification Emails.', ES_TDOMAIN ); ?></p></label>
 				</th>
 				<td>
 					<select name="es_c_post_image_size" id="es_c_post_image_size">
@@ -154,7 +154,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-admin active-settings">
 				<th scope="row">
 					<label for="elp"><?php echo __( 'Admin Email Content on new subscriber signs up', ES_TDOMAIN ); ?>
-					<p class="description"><?php echo __( 'Content for the admin email whenever a new subscriber signs up and is confirmed.<br />(Available Keywords: ###NAME###, ###EMAIL###, ###GROUP###)', ES_TDOMAIN ); ?></p></label>
+					<p class="description"><?php echo __( 'Content for the admin email whenever a new subscriber signs up and is confirmed.<br />Available Keywords: {{NAME}}, {{EMAIL}}, {{GROUP}}', ES_TDOMAIN ); ?></p></label>
 				</th>
 				<td><textarea size="100" id="es_c_adminmailcontant" rows="10" cols="58" name="es_c_adminmailcontant"><?php echo esc_html(stripslashes($this->form['ig_es_admin_new_sub_content'])); ?></textarea></td>
 			</tr>
@@ -169,7 +169,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-admin active-settings">
 				<th scope="row">
 					<label for="elp"><?php echo __( 'Sent Report Content', ES_TDOMAIN ); ?>
-					<p class="description"><?php echo __( 'Content for the email report which will be sent to admin.<br />(Available Keywords: ###COUNT###, ###UNIQUE###, ###STARTTIME###, ###ENDTIME###)', ES_TDOMAIN ); ?></p></label>
+					<p class="description"><?php echo __( 'Content for the email report which will be sent to admin.<br />Available Keywords: {{COUNT}}, {{UNIQUE}}, {{STARTTIME}}, {{ENDTIME}}', ES_TDOMAIN ); ?></p></label>
 				</th>
 				<td><textarea size="100" id="es_c_sentreport" rows="8" cols="58" name="es_c_sentreport"><?php echo esc_html(stripslashes($this->form['ig_es_sentreport'])); ?></textarea></td>
 			</tr>
@@ -188,7 +188,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-signup-confirmation hidden">
 				<th scope="row">
 					<label for="elp"><?php echo __('Double Opt-In Email Content (Confirmation Email)', ES_TDOMAIN); ?>
-					<p class="description"><?php echo __( 'Content for the confirmation email to be sent for Double Opt-In whenever a subscriber signs up.<br />(Available Keywords: ###NAME###, ###LINK###)', ES_TDOMAIN ); ?></p></label>
+					<p class="description"><?php echo __( 'Content for the confirmation email to be sent for Double Opt-In whenever a subscriber signs up.<br />Available Keywords: {{NAME}}, {{LINK}}', ES_TDOMAIN ); ?></p></label>
 				</th>
 				<td><textarea size="100" id="es_c_optincontent" rows="10" cols="58" name="es_c_optincontent"><?php echo esc_html(stripslashes($this->form['ig_es_confirmcontent'])); ?></textarea></td>
 			</tr>
@@ -229,7 +229,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-signup-confirmation hidden">
 				<th scope="row">
 					<label for="elp"><?php echo __( 'Email Content for Welcome Email', ES_TDOMAIN ); ?>
-					<p class="description"><?php echo __( 'Content for the subscriber welcome email whenever a user\'s email is either confirmed (if Double Opt In) / subscribed (if Single Opt In) successfully.<br />(Available Keywords: ###NAME###, ###GROUP###, ###LINK###)', ES_TDOMAIN ); ?></p>
+					<p class="description"><?php echo __( 'Content for the subscriber welcome email whenever a user\'s email is either confirmed (if Double Opt In) / subscribed (if Single Opt In) successfully.<br />Available Keywords: {{NAME}}, {{GROUP}}, {{LINK}}', ES_TDOMAIN ); ?></p>
 				</label>
 				</th>
 				<td><textarea size="100" id="es_c_usermailcontant" rows="10" cols="58" name="es_c_usermailcontant"><?php echo esc_html(stripslashes($this->form['ig_es_welcomecontent'])); ?></textarea></td>
@@ -245,7 +245,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-signup-confirmation hidden">
 				<th scope="row">
 					<label for="elp"><?php echo __( 'Unsubscribe Text in Email', ES_TDOMAIN ); ?>
-					<p class="description"><?php echo __( 'The text for the unsubscribe link. This text is automatically added with unsubscribe link in the emails.<br />(Available Keyword: ###LINK###)', ES_TDOMAIN ); ?></p></label>
+					<p class="description"><?php echo __( 'The text for the unsubscribe link. This text is automatically added with unsubscribe link in the emails.<br />Available Keyword: {{LINK}}', ES_TDOMAIN ); ?></p></label>
 				</th>
 				<td><textarea size="100" id="es_c_unsubtext" rows="4" cols="58" name="es_c_unsubtext"><?php echo esc_html(stripslashes($this->form['ig_es_unsubcontent'])); ?></textarea></td>
 			</tr>
@@ -297,7 +297,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			</tr>
 			<tr class="es-roles hidden">
 				<th scope="row">
-					<label for="tag-image"><?php echo __( 'Compose Menu', ES_TDOMAIN ); ?></label>
+					<label for="tag-image"><?php echo __( 'Templates Menu', ES_TDOMAIN ); ?></label>
 				</th>
 				<td>
 					<select name="es_roles_mail" id="es_roles_mail">
@@ -372,7 +372,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			<tr class="es-cron hidden">
 				<th scope="row">
 					<label for="tag-image"><?php echo __( 'Cron Report', ES_TDOMAIN ); ?>
-						<p class="description"><?php echo __( 'Email to admin whenever a cron URL is triggered from your server. (Available Keywords: ###DATE###, ###SUBJECT###, ###COUNT###)', ES_TDOMAIN ); ?></p>
+						<p class="description"><?php echo __( 'Email to admin whenever a cron URL is triggered from your server.<br />Available Keywords: {{DATE}}, {{SUBJECT}}, {{COUNT}}', ES_TDOMAIN ); ?></p>
 					</label>
 				</th>
 				<td>
@@ -487,7 +487,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			$blogname = get_option('blogname');
 			$es_cron_adminmail = get_option('ig_es_cron_adminmail', '');
 			if($es_cron_adminmail == "") {
-				add_option('ig_es_cron_adminmail', "Hi Admin,\r\n\r\nCron URL has been triggered successfully on ###DATE### for the email ###SUBJECT###. And it sent email to ###COUNT### recipient(s).\r\n\r\nBest,\r\n".$blogname."");
+				add_option('ig_es_cron_adminmail', "Hi Admin,\r\n\r\nCron URL has been triggered successfully on {{DATE}} for the email {{SUBJECT}}. And it sent email to {{COUNT}} recipient(s).\r\n\r\nBest,\r\n".$blogname."");
 				$es_cron_adminmail = get_option('ig_es_cron_adminmail');
 			}
 			$form['ig_es_cron_adminmail'] = $es_cron_adminmail;
@@ -528,10 +528,10 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 
 				$home_url = home_url('/');
 
-				$optinlink = $home_url . "?es=optin&db=###DBID###&email=###EMAIL###&guid=###GUID###";
+				$optinlink = $home_url . "?es=optin&db={{DBID}}&email={{EMAIL}}&guid={{GUID}}";
 				$form['ig_es_optinlink'] = $optinlink;
 
-				$unsublink = $home_url . "?es=unsubscribe&db=###DBID###&email=###EMAIL###&guid=###GUID###";
+				$unsublink = $home_url . "?es=unsubscribe&db={{DBID}}&email={{EMAIL}}&guid={{GUID}}";
 				$form['ig_es_unsublink'] = $unsublink;
 
 				$form['ig_es_unsubcontent'] = isset($_POST['es_c_unsubtext']) ? $_POST['es_c_unsubtext'] : '';

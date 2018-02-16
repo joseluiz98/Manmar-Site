@@ -57,6 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		if ($es_error_found == FALSE) {	
 			$action = "";
 			$action = es_cls_compose::es_template_ins($form, $action = "update");
+			do_action('es_after_tmpl_update',$_POST);
 			if($action == "sus") {
 				$es_success = __( 'Successfully updated. ', ES_TDOMAIN );
 			}
@@ -117,6 +118,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</select>
 				<p><?php echo __( 'Please select your mail status', ES_TDOMAIN ); ?></p>
 			</div>
+			<!-- <?php do_action('es_after_editor', $form );?> -->
 			<input type="hidden" name="es_form_submit" value="yes"/>
 			<input type="hidden" name="es_templ_id" id="es_templ_id" value="<?php echo $form['es_templ_id']; ?>"/>
 			<p class="submit">
