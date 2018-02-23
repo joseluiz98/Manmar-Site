@@ -136,7 +136,7 @@ if(!is_single()):
 								<style type="text/css">
 									.InnerSection{
 										margin-top: 88px !important;
-										height: 315px !important;
+										height: auto !important;
 									}
 									@media(max-width: 768px){
 										.VR{
