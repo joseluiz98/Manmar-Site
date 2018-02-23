@@ -93,7 +93,7 @@ if(!is_single()):
 			<div class="PromoBlock text-center" id="PromoBlock" style="background: url('<?php echo $backgroundPromo['url']; ?>')50% 50% no-repeat;">
 				<div class="Contents">
 					<div class="container">
-						<div class="col-lg-10 col-lg-offset-1">
+						<div class="col-lg-6 col-lg-offset-3">
 							<div class="OuterSection">
 								<!-- <div class="InnerSection">
 									<h5 class="Heading">Bem vindo</h5>
@@ -114,7 +114,7 @@ if(!is_single()):
 							</div>
 						</div>
 						<div class="clearfix"></div>
-						<div class="ButtonsContainer col-xs-12">
+						<div class="ButtonsContainer col-xs-12" style="display: none;">
 							<div class="CallToActionButtons">
 								<!-- <a href="#branches" class="loginlink TrackYourMoney QuarterSecDelay OneAndHalfSecDuration signuplink" animation="if: load, on: window, do: bounceIn animated; if: scroll, on: window, do: bounceIn animated, before: scrollReveal"> -->
 								<a href="#branches" class="TrackYourMoney QuarterSecDelay OneAndHalfSecDuration signuplink" animation="if: load, on: window, do: bounceIn animated; if: scroll, on: window, do: bounceIn animated, before: scrollReveal">
@@ -167,17 +167,17 @@ if(!is_single()):
 							<?php the_title(); ?>
 						<?php endwhile;?>
 					</h4>
-					<hr class="ShortHR" />
+					<!-- <hr class="ShortHR" /> -->
 					<div class="PartnersContainer col-xs-12 text-center">
-						<div class="Partners col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+						<div class="Partners col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-1 col-xs-5 col-xs-offset-1">
 							<a class="WesternUnion"></a>
 						</div>
 						<div class="Partners col-md-2 col-sm-2 col-xs-5">
 							<a class="Belmoney"></a>
 						</div>
-						<div class="Partners col-md-2 col-sm-2 col-sm-offset-0 col-xs-5 col-xs-offset-1">
+						<!-- <div class="Partners col-md-2 col-sm-2 col-sm-offset-0 col-xs-5 col-xs-offset-1">
 							<a class="SmallWorld"></a>
-						</div>
+						</div> -->
 						<div class="Partners col-md-2 col-sm-2 col-xs-5">
 							<a class="MoneyGram"></a>
 						</div>
@@ -195,7 +195,7 @@ if(!is_single()):
 				<div class="ContentBlock">
 					<div class="container">
 						<div class="col-lg-12">
-							<img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/Assets/Images/LogoBlue.png" class="Logo img-responsive HalfSecDelay OneSecDuration" animation="if: load, on: window, do: bounceIn animated; if: scroll, on: window, do: bounceIn animated, before: scrollReveal" />
+							<!-- <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/Assets/Images/LogoBlue.png" class="Logo img-responsive HalfSecDelay OneSecDuration" animation="if: load, on: window, do: bounceIn animated; if: scroll, on: window, do: bounceIn animated, before: scrollReveal" /> -->
 							<?php $the_query = new WP_Query( 'page_id=5' ); ?>
 							<?php while ($the_query -> have_posts()) : $the_query -> the_post();  ?>
 								<?php the_content(); ?>
@@ -332,7 +332,7 @@ if(!is_single()):
 			<!-- TrackingBlock Start -->
 			<div class="TrackingBlock">
 				<?php $background = get_field('imagem_background', 'option'); ?>
-				<div class="content-blog grid services" id="parallaxPhoto" data-speed="6" data-type="background" style="background: url('<?php echo $background['url']; ?>')50% 0 fixed no-repeat;">
+				<div class="content-blog grid services" id="parallaxPhoto" data-speed="6" data-type="background">
 					<div class="container">
 						<div class="row">
 							<?php 
@@ -463,7 +463,7 @@ if(!is_single()):
 
 				<div class="GetAlerts">
 					<div class="container">
-						<div class="Core col-xs-12">
+						<div class="Core col-md-12 col-lg-offset-1">
 							<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/Assets/Images/TrackingBlockEmailNotificationIcon.png" alt="Email Notification" />
 							<div class="VR"></div>
 							<div class="Text">
