@@ -3,6 +3,20 @@ h3 {
     line-height: 48px
 }
 
+/* Estilos página inicial estática */
+#branches {
+    background: #FEB101 !important;
+}
+
+.titleBranche, .PartnersBlock h4 {
+    color: #2A2A2A !important;
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    font-size: 1em;
+    font-weight: normal !important;
+}
+
 .AboutBlock .Logo,
 .LongHR,
 .PartnersBlock .Partners {
@@ -417,7 +431,7 @@ button:focus {
 
 .PromoBlock .InnerSection .Core h2 {
     color: #aad934;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 0 1em!important
 }
 
@@ -578,7 +592,7 @@ button:focus {
 }
 
 .PartnersBlock {
-    background-color: #fff;
+    background-color: #E6E6E6;
     display: block;
     position: relative
 }
@@ -597,8 +611,8 @@ button:focus {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    min-width: 130px;
-    min-height: 130px;
+    min-width: 180px;
+    min-height: 180px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
@@ -673,8 +687,11 @@ button:focus {
     }
 }
 
+.AboutBlock > .ContentBlock > .container {
+    width: 80%;
+}
 .AboutBlock {
-    background-color: #dcdada;
+    background-color: #333333;
     display: block;
     position: relative;
     color: #424b54
@@ -691,15 +708,21 @@ button:focus {
 }
 
 .AboutBlock h2 {
-    text-transform: uppercase;
-    color: #062945;
-    padding-top: 20px
+    font-family: 'Montserrat-SemiBold';
+    color: #FEAD07;
+    /*padding-top: 20px*/
 }
 
 .AboutBlock h4.Tagline {
-    color: #00a3c6;
+    color: #fff;
     font-family: Gotham;
-    text-transform: uppercase
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.AboutBlock p {
+    color: #fff;
+    font-size: 0.9em;
 }
 
 @media (max-width:768px) {
@@ -730,8 +753,7 @@ button:focus {
 .TrackingBlock {
     display: block;
     position: relative;
-    background-color: #062945;
-    background-image: url(../Images/TrackingBlockGraphBG.png);
+    background-color: #FF6501;
     background-position: center bottom;
     background-size: 100% auto;
     background-repeat: no-repeat
@@ -833,7 +855,7 @@ button:focus {
 .TrackingBlock .GetAlerts {
     display: block;
     position: relative;
-    background-image: url(../Images/Shadow.png);
+    /*background-image: url(../Images/Shadow.png);*/
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -843,7 +865,7 @@ button:focus {
 .TrackingBlock .GetAlerts .Core {
     margin-bottom: 10px;
     padding: 14px 14px 14px 78px;
-    background-image: url(../Images/SemiTransparentBG.png);
+    /*background-image: url(../Images/SemiTransparentBG.png);*/
     background-position: center center;
     background-repeat: repeat;
     background-size: cover;
@@ -889,8 +911,8 @@ button:focus {
 }
 
 .TrackingBlock .GetAlerts .Core .Subscribe {
-    background-color: #00bce4;
-    border-radius: 2px;
+    border: 2px solid #fff;
+    border-radius: 20px;
     padding: 15px 35px;
     display: inline-block;
     margin-bottom: 0;
@@ -903,7 +925,22 @@ button:focus {
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
+}
+
+.button:hover {
+    color: black !important;
+}
+.Subscribe {
+    float: none !important;
+    margin-left: 2%;
+}
+.Subscribe p, .button p, .ButtonsContainer a {
+    font-weight: normal;
+    font-size: 1.15em !important;
+    text-transform: none;
+    font-family: 'Montserrat-ExtraBold';
+    margin: 0 !important;
 }
 
 .TrackingBlock .GetAlerts .Core .Subscribe:active,
@@ -1040,14 +1077,16 @@ button:focus {
 }
 
 .GuranteesBlock {
-    background-color: #f6f7f9;
+    background-color: #333333;
     display: block;
     text-align: center
 }
 
 .GuranteesBlock h4 {
-    text-transform: uppercase;
-    color: #aad934
+    /*text-transform: uppercase;*/
+    color: #FEB101;
+    font-size: 2.5em;
+    font-family: 'Montserrat-Regular';
 }
 
 .GuranteesBlock .FeaturesInfographic .Icon {
@@ -1165,10 +1204,10 @@ button:focus {
     }
     .GuranteesBlock .FeaturesInfographic .Feature h5 {
         font-size: 15px;
-        color: #00a3c6
+        color: #FEB101
     }
     .GuranteesBlock .FeaturesInfographic .Feature p {
-        color: #3f3f3f;
+        color: #fff;
         font-size: 12px;
         line-height: 20px
     }
@@ -1222,10 +1261,10 @@ button:focus {
     }
     .GuranteesBlock .FeaturesInfographic .Feature h5 {
         font-size: 15px;
-        color: #00a3c6
+        color: #FEB101
     }
     .GuranteesBlock .FeaturesInfographic .Feature p {
-        color: #3f3f3f;
+        color: #fff;
         font-size: 12px;
         line-height: 20px
     }
@@ -1257,10 +1296,10 @@ button:focus {
     }
     .GuranteesBlock .FeaturesInfographic .Feature h5 {
         font-size: 15px;
-        color: #00a3c6
+        color: #FEB101
     }
     .GuranteesBlock .FeaturesInfographic .Feature p {
-        color: #3f3f3f;
+        color: #fff;
         font-size: 12px;
         line-height: 20px
     }
@@ -1396,7 +1435,7 @@ button:focus {
 }
 
 .QuestionsBlock {
-    background-color: #aad934;
+    background-color: #FF6501;
     text-transform: uppercase;
     color: #f6f7f9
 }
@@ -1406,7 +1445,7 @@ button:focus {
 }
 
 .QuestionsBlock .Contents h5 {
-    color: #062945;
+    color: #fff;
     display: inline-block;
     font-size: 20px
 }
@@ -1425,9 +1464,10 @@ button:focus {
 
 .QuestionsBlock .Contents .ButtonsContainer .button {
     padding: 15px 40px;
-    border: 1px solid #062945;
-    border-radius: 4px;
-    color: #062945;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bolder;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -2109,7 +2149,7 @@ footer .Contents .TopSection .SocialBlock .SocialIcon.LinkedIn:hover {
 } */
 
 footer .Contents .MiddleSection {
-    background-color: #2c3e50;
+    background-color: #333333;
     color: #fff
 }
 
@@ -2171,7 +2211,7 @@ footer .Contents .MiddleSection .NavigationLinks ul li a:hover {
 }
 
 footer .Contents .BottomSection {
-    background-color: #032c4d;
+    background-color: #333333;
     text-decoration: none;
     text-transform: uppercase
 }
@@ -2445,7 +2485,7 @@ footer .Contents .BottomSection ul li a:hover {
 
 .easyPaginateNav a.current {
     background-color: #00bce4;
-    border: .5px solid #00a3c6;
+    border: .5px solid '#00a3c6';
     font-weight: 700;
     text-decoration: none
 }

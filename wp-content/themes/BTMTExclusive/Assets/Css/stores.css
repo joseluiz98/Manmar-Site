@@ -674,7 +674,6 @@ select {
 
 .titleBranche {
     text-align: center;
-    color: #062945;
     margin-bottom: 30px;
     font-weight: 700
 }
@@ -771,7 +770,7 @@ div.wpcf7-response-output {
 
 #parallaxPhoto {
     min-height: 417px;
-    background-color: #004c82;
+    background-color: #E6E6E6;
     position: relative;
     background-size: cover
 }

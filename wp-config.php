@@ -23,10 +23,12 @@
 define('DB_NAME', 'db149826_btmt');
 
 /** MySQL database username */
+
 define('DB_USER', 'jose_luiz');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'root');
+
 
 /** MySQL hostname */
 define('DB_HOST', '192.168.64.2');
