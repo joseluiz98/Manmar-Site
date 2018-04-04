@@ -19,3 +19,14 @@
 {"user_id":3,"user_login":"italo_carvalho","user_remoteaddr":"191.249.19.75","user_hostname":"191.249.19.75.dynamic.adsl.gvt.net.br","user_lastlogin":"2017-12-19 17:56:19"}
 {"user_id":3,"user_login":"italo_carvalho","user_remoteaddr":"189.13.10.20","user_hostname":"189-13-10-20.user.veloxzone.com.br","user_lastlogin":"2017-12-26 17:18:19"}
 {"user_id":3,"user_login":"italo_carvalho","user_remoteaddr":"189.101.9.31","user_hostname":"189.101.9.31","user_lastlogin":"2018-02-13 16:27:22"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:17:34"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:17:43"}
+{"user_id":5,"user_login":"arthur.fernandes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:18:28"}
+{"user_id":5,"user_login":"arthur.fernandes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:18:37"}
+{"user_id":5,"user_login":"arthur.fernandes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:18:38"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:19:53"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:20:40"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:23:39"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:23:57"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:24:21"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 18:39:05"}

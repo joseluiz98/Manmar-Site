@@ -1,4 +1,4 @@
-﻿h2,
+h2,
 h3 {
     line-height: 48px
 }
@@ -374,9 +374,9 @@ button:focus {
 
 .PromoBlock {
     position: relative;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(http://localhost/site-manmar/wp-content/uploads/2017/10/Brand.svg) no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
     display: table;
     width: 100%;
     height: 480px !important;
@@ -395,6 +395,7 @@ button:focus {
 }
 
 .PromoBlock .InnerSection {
+    font-family: 'Montserrat-Regular';
     height: auto;
     width: auto;
     border: 2px solid #bec4ca;
@@ -429,7 +430,7 @@ button:focus {
 }
 
 .PromoBlock .InnerSection .Core h2 {
-    color: #aad934;
+    color: #333333;
     /*text-transform: uppercase;*/
     padding: 0 1em!important
 }
@@ -749,7 +750,7 @@ button:focus {
 .TrackingBlock {
     display: block;
     position: relative;
-    background-color: #FF6501;
+    background-color: #FF6600;
     background-position: center bottom;
     background-size: 100% auto;
     background-repeat: no-repeat
