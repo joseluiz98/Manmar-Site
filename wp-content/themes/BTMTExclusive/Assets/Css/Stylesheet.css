@@ -402,6 +402,7 @@ button:focus {
     text-align: center;
     border-left: none;
     border-right: none;
+    margin-top: -85px !important;
 }
 
 .PromoBlock .InnerSection .Heading {
