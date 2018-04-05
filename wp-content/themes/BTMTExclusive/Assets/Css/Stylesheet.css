@@ -880,8 +880,8 @@ button:focus {
     display: inline-block;
     position: absolute;
     left: 20px;
-    top: 9px;
-    max-width: 58px
+    top: 25px;
+    max-width: 58px;
 }
 
 .GuranteesBlock,
@@ -899,7 +899,8 @@ button:focus {
 
 .TrackingBlock .GetAlerts .Core .Text {
     display: inline-block;
-    text-align: left
+    text-align: left;
+    letter-spacing: 0.3em;
 }
 
 .TrackingBlock .GetAlerts .Core .Text h4 {
@@ -914,6 +915,12 @@ button:focus {
     margin: 0
 }
 
+@media screen and (min-width: 992px){
+    .TrackingBlock .GetAlerts .Core .Subscribe {
+        position: relative;
+        bottom: 0.5em;
+    }
+}
 .TrackingBlock .GetAlerts .Core .Subscribe {
     border: 2px solid #fff;
     border-radius: 20px;

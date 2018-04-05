@@ -464,7 +464,7 @@ if(!is_single()):
 				<div class="GetAlerts">
 					<div class="container">
 						<div class="Core col-md-12 col-lg-offset-1">
-							<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/Assets/Images/TrackingBlockEmailNotificationIcon.png" alt="Email Notification" />
+							<img class="img-responsive" src="/site-manmar/wp-content/uploads/2018/04/Mail.svg" alt="Email Notification" />
 							<div class="VR"></div>
 							<div class="Text">
 								<?php $the_query = new WP_Query( 'page_id=365' ); ?>
