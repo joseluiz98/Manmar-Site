@@ -30,3 +30,4 @@
 {"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:23:57"}
 {"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 17:24:21"}
 {"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-04 18:39:05"}
+{"user_id":2,"user_login":"leonardogomes","user_remoteaddr":"127.0.0.1","user_hostname":"validation.sls.microsoft.com","user_lastlogin":"2018-04-05 17:07:53"}

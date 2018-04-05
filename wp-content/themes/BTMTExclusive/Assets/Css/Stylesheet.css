@@ -689,13 +689,19 @@ button:focus {
     width: 80%;
 }
 .AboutBlock {
+     background-image: url(/site-manmar/wp-content/uploads/2018/04/ManmarBack.svg);
     background-color: #333333;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
     display: block;
     position: relative;
-    color: #424b54
+    color: #424b54;    
+    padding-bottom: 5em;
 }
 
 .AboutBlock .ContentBlock {
+    bottom: 3em;
     padding: 60px 0
 }
 
@@ -706,7 +712,7 @@ button:focus {
 }
 
 .AboutBlock h2 {
-    font-family: 'Montserrat-Light';
+    font-family: 'Montserrat-Regular';
     color: #FEAD07;
     /*padding-top: 20px*/
 }
