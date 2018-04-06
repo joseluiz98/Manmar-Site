@@ -601,3 +601,5 @@ exit(0);
 1523039906_0167:"Warning: leonardogomes, 127.0.0.1; Post moved to trash; ID: 1526; name: ; status: publish"
 1523039906_2847:"Notice: leonardogomes, 127.0.0.1; Customize_changeset status has been changed; details: ID: 1526,Old status: publish,New status: trash,Title: "
 1523039907_4788:"Notice: leonardogomes, 127.0.0.1; Customize_changeset status has been changed; details: ID: 1526,Old status: new,New status: publish,Title: "
+1523043671_9105:"Notice: leonardogomes, 127.0.0.1; Media file added; ID: 1528; name: Phone; type: image\/png"
+1523043855_2902:"Notice: leonardogomes, 127.0.0.1; Media file added; ID: 1529; name: Phone; type: image\/png"

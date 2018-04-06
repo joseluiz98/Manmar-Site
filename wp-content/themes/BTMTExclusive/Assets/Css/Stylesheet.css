@@ -374,6 +374,23 @@ button:focus {
     }
 }
 
+.itemService {
+    background-image: unset !important;
+    background-color: transparent !important;
+}
+
+.titleService h4 {
+    font-family: 'Montserrat-Bold' !important;
+}
+
+.titleService h4 {
+    font-family: 'Montserrat-Regular' !important;
+}
+
+.descriptionService p, .titleService h4 {
+    color: #4B4B4D !important;
+}
+
 .QuestionImg {
     width: 75px;
     height: 75px;
