@@ -197,11 +197,13 @@ header .Contents {
 }
 
 header .Contents .HeaderLogo {
-    display: inline-block
+    display: inline-block;
+    position: relative;
+    top: 2em;
 }
 
 header .Contents .HeaderLogo img {
-    max-width: 114px;
+    max-width: 135px;
     transition: all .3s ease
 }
 
@@ -291,7 +293,7 @@ header.Shrinked .Contents .HeaderLogo {
 
 .Alternative header .Contents .HeaderLogo img,
 header.Shrinked .Contents .HeaderLogo img {
-    max-width: 60px;
+    max-width: 85px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
