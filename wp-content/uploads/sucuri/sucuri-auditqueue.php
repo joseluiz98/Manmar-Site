@@ -597,3 +597,7 @@ exit(0);
 1523035939_0268:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1524,Old status: new,New status: inherit,Title: Still got questions? Don&#039;t Worry. We got you"
 1523038228_3768:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 410; name: Still got questions? &lt;br&gt; Don&#039;t Worry. We got you"
 1523038230_3529:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1525,Old status: new,New status: inherit,Title: Still got questions? &lt;br&gt; Don&#039;t Worry. We got you"
+1523039904_7506:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1527,Old status: new,New status: inherit,Title: BTMTExclusive"
+1523039906_0167:"Warning: leonardogomes, 127.0.0.1; Post moved to trash; ID: 1526; name: ; status: publish"
+1523039906_2847:"Notice: leonardogomes, 127.0.0.1; Customize_changeset status has been changed; details: ID: 1526,Old status: publish,New status: trash,Title: "
+1523039907_4788:"Notice: leonardogomes, 127.0.0.1; Customize_changeset status has been changed; details: ID: 1526,Old status: new,New status: publish,Title: "

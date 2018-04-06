@@ -951,6 +951,7 @@ button:focus {
     float: none !important;
     margin-left: 2%;
 }
+
 .Subscribe p, .button p, .ButtonsContainer a {
     font-weight: normal;
     font-size: 1.15em !important;
@@ -1480,12 +1481,17 @@ button:focus {
     top: 1em;
 }
 
+.QuestionsBlock .Contents .ButtonsContainer .GIT p {
+    font-weight: inherit;
+}
+
 .QuestionsBlock .Contents .ButtonsContainer {
     display: inline-block;
     padding: 0 60px
 }
 
 .QuestionsBlock .Contents .ButtonsContainer a {
+    font-family: 'Montserrat-Bold' !important;
     display: inline-block;
     font-size: 18px;
     text-decoration: none;
@@ -1518,7 +1524,7 @@ button:focus {
 }
 
 .QuestionsBlock .Contents .ButtonsContainer .FAQs {
-    margin-right: 10px
+    margin-right: 10px !important
 }
 
 .QuestionsBlock .Contents .ButtonsContainer .GIT {
