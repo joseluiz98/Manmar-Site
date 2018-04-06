@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1507725551;
-// updated_on=1522947653;
+// updated_on=1523033375;
 exit(0);
 ?>
 1507725730_7188:"Notice: italo_carvalho, 177.182.105.145; Hardening applied to the readme.html file"
@@ -585,3 +585,15 @@ exit(0);
 1522958392_1333:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1518,Old status: new,New status: inherit,Title: HOW ABOUT GETTING E-MAIL ALERTS"
 1522958439_9411:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 389; name: Yes, sign me up!"
 1522958440_0801:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1519,Old status: new,New status: inherit,Title: Yes, sign me up!"
+1523034447_7541:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 9; name: Guarantees"
+1523034449_2312:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1520,Old status: new,New status: inherit,Title: Guarantees"
+1523034531_9537:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 9; name: Guarantees"
+1523034533_2117:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1521,Old status: new,New status: inherit,Title: Guarantees"
+1523034580_8433:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 9; name: Guarantees"
+1523034582_5674:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1522,Old status: new,New status: inherit,Title: Guarantees"
+1523034613_5691:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 9; name: Guarantees"
+1523034613_7311:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1523,Old status: new,New status: inherit,Title: Guarantees"
+1523035938_7228:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 410; name: Still got questions? Don&#039;t Worry. We got you"
+1523035939_0268:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1524,Old status: new,New status: inherit,Title: Still got questions? Don&#039;t Worry. We got you"
+1523038228_3768:"Notice: leonardogomes, 127.0.0.1; Page was updated; ID: 410; name: Still got questions? &lt;br&gt; Don&#039;t Worry. We got you"
+1523038230_3529:"Notice: leonardogomes, 127.0.0.1; Revision status has been changed; details: ID: 1525,Old status: new,New status: inherit,Title: Still got questions? &lt;br&gt; Don&#039;t Worry. We got you"

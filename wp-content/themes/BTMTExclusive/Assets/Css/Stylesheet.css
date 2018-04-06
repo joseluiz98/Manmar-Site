@@ -39,7 +39,7 @@ html {
 }
 
 .ContentBlock {
-    padding: 40px 0;
+    padding: 20px 0;
     display: block;
     position: relative
 }
@@ -370,6 +370,11 @@ button:focus {
     header .Contents ul .Search {
         width: 125px
     }
+}
+
+.QuestionImg {
+    width: 75px;
+    height: 75px;
 }
 
 .PromoBlock {
@@ -1093,6 +1098,13 @@ button:focus {
     text-align: center
 }
 
+.GuranteesBlock .ContentBlock .container p  {
+    color: #FDB000;
+    font-size: 2em;
+    font-family: 'Montserrat-Regular';
+    font-weight: normal !important;
+}
+
 .GuranteesBlock h4 {
     /*text-transform: uppercase;*/
     color: #FEB101;
@@ -1328,6 +1340,11 @@ button:focus {
     }
 }
 
+.QuestionsBlock h5 {
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat-Regular' !important;
+    font-size: 16px !important;
+}
 .MissionBlock h4,
 .ReviewsBlock h4 {
     color: #aad934;
@@ -1337,7 +1354,7 @@ button:focus {
 .QuestionsBlock,
 .ReviewsBlock {
     display: block;
-    text-align: center
+    text-align: center;
 }
 
 .BlogBlock,
@@ -1458,7 +1475,9 @@ button:focus {
 .QuestionsBlock .Contents h5 {
     color: #fff;
     display: inline-block;
-    font-size: 20px
+    font-size: 20px;
+    position: relative;
+    top: 1em;
 }
 
 .QuestionsBlock .Contents .ButtonsContainer {

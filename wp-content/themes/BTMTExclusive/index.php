@@ -745,7 +745,7 @@ if(!is_single()):
 
 						<div class="Contents">
 
-							<?php $the_query = new WP_Query( 'page_id=410' ); ?>
+							<img class="QuestionImg" src="/site-manmar/wp-content/uploads/2018/04/Question.svg"></img><?php $the_query = new WP_Query( 'page_id=410' ); ?>
 
 							<?php while ($the_query -> have_posts()):$the_query -> the_post();  ?>
 
