@@ -675,6 +675,9 @@ if(!is_single()):
 						<div class="container">
 
 							<div class="col-lg-12">
+								<div class="img img-fluid reviewsCallBlock">
+									<h2 class="reviewsCall HalfSecDelay OneAndHalfSecDuration">What are our clients saying?</h2>
+								</div>
 
 								<div class="ReviewsSlider swiper-container">
 

@@ -763,7 +763,11 @@ button:focus {
     max-width: 128px
 }
 
-.AboutBlock h2 {
+.reviewsCallBlock h2 {
+    padding: 0 1em;
+}
+
+.AboutBlock h2, .reviewsCallBlock h2 {
     font-family: 'Montserrat-Regular';
     color: #FEAD07;
     /*padding-top: 20px*/
@@ -1454,16 +1458,48 @@ button:focus {
     }
 }
 
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    right: 7em;
+}
+
 .ReviewsBlock {
     background-color: #f6f7f9
 }
 
 .ReviewsBlock p {
-    line-height: 36px
+    line-height: 36px;
+}
+
+.swiper-slide p {
+    font-family: 'Montserrat-Regular';
+    font-size: 1em;
+    padding: 0 14em;
+    line-height: 36px;
+}
+
+.reviewsCallBlock {
+    display: table;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-image: url("/site-manmar/wp-content/uploads/2018/04/Balloon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reviewsCall {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .ReviewsBlock .OuterSection {
-    background-image: url(../Images/ReviewsBG.jpg);
+    /*background-image: url(../Images/ReviewsBG.jpg);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1471,10 +1507,11 @@ button:focus {
 }
 
 .ReviewsBlock .OuterSection .Overlay {
-    background-image: url(../Images/ReviewsBGOverlay.png);
-    background-position: center center;
-    background-repeat: repeat;
-    background-size: contain
+    padding: 3em 0;
+    background-image: url('/site-manmar/wp-content/uploads/2018/04/Reviews Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ContactUsBlock .LocateUs,
@@ -1495,8 +1532,10 @@ button:focus {
 
 .ReviewsBlock .OuterSection .ReviewsSlider h5 {
     color: #fff;
-    font-weight: 700;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: 'Montserrat-Regular';
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
 }
 
 .ReviewsBlock .OuterSection .ReviewsSlider h6 {
