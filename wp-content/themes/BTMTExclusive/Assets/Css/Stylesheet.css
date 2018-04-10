@@ -391,6 +391,34 @@ button:focus {
     color: #4B4B4D !important;
 }
 
+.mask-hover > .class_0 {
+    background-image: url('/site-manmar/wp-content/uploads/2018/04/Phone.png');
+    background-repeat: no-repeat !important;
+    questionImg
+    background-position: center !important;
+}
+
+.mask-hover > .class_1 {
+    background-image: url('/site-manmar/wp-content/uploads/2018/04/Arrows.png');
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-position: center !important;
+}
+
+.mask-hover > .class_2 {
+    background-image: url('/site-manmar/wp-content/uploads/2018/04/Lamp.png');
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-position: center !important;
+}
+
+.mask-hover > .class_3 {
+    background-image: url('/site-manmar/wp-content/uploads/2018/04/Whatsapp.png');
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-position: center !important;
+}
+
 .questionImg {
     width: 75px;
     height: 75px;
@@ -400,7 +428,7 @@ button:focus {
     position: relative;
     background: url(http://localhost/site-manmar/wp-content/uploads/2017/10/Brand.svg) no-repeat !important;
     background-position: center center !important;
-    background-size: cover !important;
+    background-size: auto !important;
     display: table;
     width: 100%;
     height: 480px !important;
